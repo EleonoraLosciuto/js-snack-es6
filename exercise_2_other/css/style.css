@@ -1,0 +1,23 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', 'TikTok Sans', sans-serif;
+    color: antiquewhite;
+    background-image: linear-gradient(0.25turn, rgba(43, 0, 255, 0.887), 25%, rgba(161, 127, 255, 0.928));
+    background-size: contain;
+    
+}
+
+h1 {
+    padding: 24px;
+}
+
+.container {
+    padding: 24px;
+    margin: 0 auto;
+}
