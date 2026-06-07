@@ -29,3 +29,14 @@ for (let i = 0; i < teamListNew.length; i++) {
 };
 
 console.log(teamListNew);
+
+// mostro risultato in pagina
+const result = document.querySelector('.result-card');
+
+result.classList.remove("hidden");
+let html = "";
+ for (let i = 0; i < teamListNew.length; i++) {
+    html += `la squadra ${teamListNew[i].name} ha ${teamListNew[i].points} punti. <br>`
+};
+
+result.innerHTML = `${html}`
