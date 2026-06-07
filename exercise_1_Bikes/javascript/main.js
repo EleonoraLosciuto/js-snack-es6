@@ -37,6 +37,19 @@ console.table(bikesList);
         };
 
         console.log(minWeigth, bikeMinorWeigth);
+
+    // mostro in pagina il risultato
+
+    const mainElement = document.querySelector('main');
+
+    // creo template string
+    let html = `<div class = "result-card"> La bicicletta da corsa che pesa meno é ${bikeMinorWeigth} con un peso di ${
+        (minWeigth/1000).toFixed(1)} Kg </div>`
+        //controllo il mio html
+        console.log(html)
+
+mainElement.innerHTML += html;
+
     
     
     
