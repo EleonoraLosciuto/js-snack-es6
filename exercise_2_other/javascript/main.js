@@ -18,3 +18,14 @@ const teamList = [
     
 ];
     console.log(teamList);
+
+
+// creo hard copy della lista squadre
+let teamListNew = structuredClone(teamList);
+
+// cancello nella copia la proprietá foulsWon, iterando nell'array con un for
+for (let i = 0; i < teamListNew.length; i++) {
+    delete teamListNew[i].foulsWon;
+};
+
+console.log(teamListNew);
