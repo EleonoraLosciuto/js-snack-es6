@@ -21,11 +21,24 @@ Repository name: `js-snack-es6`
 ```text
 js-snack-es6/
 │
-├── css/
-│   └── style.css
+├── exercise_1_Bikes/
+│   ├── css/
+│   │   └── style.css
+│   ├── javascript/
+│   │   └── main.js
+│   ├── .gitignore
+│   ├── index.html
+│   └── javascript.svg
 │
-├── index.html
-├── main.js
+├── exercise_2_Teams/
+│   ├── css/
+│   │   └── style.css
+│   ├── javascript/
+│   │   └── main.js
+│   ├── .gitignore
+│   ├── index.html
+│   └── javascript.svg
+│
 └── README.md
 ```
 
